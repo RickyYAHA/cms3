@@ -12,24 +12,31 @@ body {
     padding: 0;
 }
 div#pageContainer {
-    max-width: 960px;
+    width: 100%;
     margin: 0 auto;
+    text-align: center;
+    background-color: #a5a5a5;
 }
 h1 {
+    padding: 1em;
     text-align: center;
+    font-size: 4em;
 }
 div#post {
     padding: 20px;
     margin-bottom: 20px;
+    font-size: 2em;
 }
 div#post img {
+    margin-bottom: 0.5em;
+    border: 5px #000 solid;
     border-radius: 10px;
-    width: 100%;
+    width: 50%;
 }
 div#loggedUser {
-    text-align: right;
-    font-weight: 1.5rem;
-
+    top: 20px;
+    right: 20px;
+    position: absolute;
 }
 img.thumbnail{
     max-width: 100px;
