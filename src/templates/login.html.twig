@@ -1,6 +1,6 @@
 {% include 'header.html.twig' %}
 <div id="pageContainer">
-    <h1>{{ pageTitle|default("Brak tytułu podstrony")}}</h1>
+    <h1 id="title">{{ pageTitle|default("Brak tytułu podstrony")}}</h1>
     <form action="" method="post">
         <label for="emailInput">Podaj adres e-mail:</label>
         <input type="email" name="email" id="emailInput"><br>
