@@ -5,6 +5,7 @@
     {% if user is defined %}
     <div id="loggedUser">Zalogowany użytkownik: {{ user.getName() }} </div>
     {% endif %}
+    <div class="postContainer">
     {% for post in postArray %}
     <div id="post">
         <h2>{{ post.getTitle() }} </h2>
@@ -14,6 +15,7 @@
         <h6>Data dodania: {{ post.getTimestamp() }} </h6>
     </div>
     {% endfor %}
+    </div>
 </div>
 
 
