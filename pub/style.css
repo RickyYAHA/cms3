@@ -15,7 +15,9 @@ div#pageContainer {
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    background-color: #a5a5a5;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
 }
 h1 {
     padding: 1em;
@@ -31,7 +33,7 @@ div#post img {
     margin-bottom: 0.5em;
     border: 5px #000 solid;
     border-radius: 10px;
-    width: 50%;
+    width: 20%;
 }
 div#loggedUser {
     top: 20px;
@@ -40,4 +42,16 @@ div#loggedUser {
 }
 img.thumbnail{
     max-width: 100px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
