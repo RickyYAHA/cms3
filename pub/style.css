@@ -54,6 +54,7 @@ form input {
     background: transparent;
     border-bottom: 3px #ffffff solid;
     color: #fff;
+    user-select: none;
 }
 
 input::placeholder {
@@ -83,6 +84,7 @@ div#pageContainer {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
+    color: #fff;
 }
 h1 {
     padding: 1em;
@@ -96,7 +98,7 @@ div#post {
 }
 div#post img {
     margin-bottom: 0.5em;
-    border: 5px #000 solid;
+    border: 5px #ffffff solid;
     border-radius: 10px;
     width: 400px;
     height: 400px;
