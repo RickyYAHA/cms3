@@ -26,6 +26,10 @@ body {
     flex-direction: column;
 }
 
+#title {
+    color: #fff;
+}
+
 .postContainer {
     width: 100%;
     display: flex;
@@ -43,8 +47,32 @@ form {
 }
 
 form input {
+    outline: none;
     width: fit-content;
+    padding: 1em 0;
+    border: none;
+    background: transparent;
+    border-bottom: 3px #ffffff solid;
+    color: #fff;
+}
 
+input::placeholder {
+    color: #d3d3d3;
+}
+
+#submit {
+    cursor: pointer;
+    padding: 1em 2em;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #701236;
+    transition: all 0.2s;
+    border-radius: 5px;
+} 
+
+#submit:hover {
+    background-color: #70123695;
 }
 
 div#pageContainer {

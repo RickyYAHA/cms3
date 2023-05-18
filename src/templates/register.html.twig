@@ -1,10 +1,10 @@
 {% include 'header.html.twig' %}
 <div id="regContainer">
-    <h1>{{ pageTitle|default("Brak tytułu podstrony")}}</h1>
+    <h1 id="title">{{ pageTitle|default("Brak tytułu podstrony")}}</h1>
     <form action="" method="post">
-        <input type="email" name="email" id="emailInput"><br>
-        <input type="password" name="password" id="passwordInput" pleaceholder="wpisz hasło"><br>
-        <input type="submit" name="submit" value="Zarejestruj">
+        <input type="email" name="email" id="emailInput" placeholder="wpisz email"><br>
+        <input type="password" name="password" id="passwordInput" placeholder="wpisz hasło"><br>
+        <input type="submit" name="submit" value="Zarejestruj" id="submit">
     </form>
 </div>
 {% include 'footer.html.twig' %}
