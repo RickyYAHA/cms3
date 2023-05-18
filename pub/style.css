@@ -12,6 +12,20 @@ body {
     padding: 0;
 }
 
+#regContainer {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .postContainer {
     width: 100%;
     display: flex;
@@ -23,6 +37,14 @@ body {
 form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+}
+
+form input {
+    width: fit-content;
+
 }
 
 div#pageContainer {
